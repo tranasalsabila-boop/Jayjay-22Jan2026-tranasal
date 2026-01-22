@@ -1,0 +1,40 @@
+
+header{
+    background-color : color-mix(in srgb, rgba(73, 146, 223, 0.567) 80%, purple 40%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+header h1 {
+    color : white;
+    text-align: center;
+    padding-top: 30px;
+}
+header h3 {
+    color : white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav{
+    background-color : color-mix(in srgb, rgba(73, 146, 223, 0.567) 80%, purple 40%);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration:none;
+    color :bisque;
+    font-weight: bold;
+}
+nav a:hover {
+    color :chocolate;
+    border-radius: 4px;
+    background-color : white;
+}
+main {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color : #333;
+}
