@@ -1,35 +1,56 @@
-
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color :bisque;
+}
 header{
     background-color : color-mix(in srgb, rgba(73, 146, 223, 0.567) 80%, purple 40%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }   
 header h1 {
-    color : white;
+    color :rgb(255, 196, 196);
     text-align: center;
     padding-top: 30px;
 }
 header h3 {
-    color : white;
+    color : rgb(255, 196, 196);
     text-align: center;
     padding-bottom: 10px;
 }
-nav{
-    background-color : color-mix(in srgb, rgba(73, 146, 223, 0.567) 80%, purple 40%);
+.navbar{
+    background-color: hsl(277, 40%, 76%);
+    text-decoration: none;
     display: flex;
     justify-content: center;
-    gap: 50px;
-    padding: 30px;
-    font-size: 20px;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;    
 }
-nav a{
-    text-decoration:none;
-    color :bisque;
+.logo{
+    height: 100px;
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+.nav-menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 16px;
     font-weight: bold;
+    font-size: large;
 }
-nav a:hover {
-    color :chocolate;
-    border-radius: 4px;
-    background-color : white;
+.nav-menu li a:hover {
+    background-color: rgb(255, 196, 196);
+    color: black;
+    border-radius: 90px;
 }
 main {
     margin: 20px;
